@@ -1,0 +1,13 @@
+io.github.projectunified.craftdatabase
+io.github.projectunified.craftdatabase.client.hibernate
+io.github.projectunified.craftdatabase.client.jpa
+io.github.projectunified.craftdatabase.client.sql
+io.github.projectunified.craftdatabase.client.sql.h2
+io.github.projectunified.craftdatabase.client.sql.hikari
+io.github.projectunified.craftdatabase.client.sql.java
+io.github.projectunified.craftdatabase.driver.h2
+io.github.projectunified.craftdatabase.driver.mariadb
+io.github.projectunified.craftdatabase.driver.mysql
+io.github.projectunified.craftdatabase.driver.postgresql
+io.github.projectunified.craftdatabase.driver.sqlite
+io.github.projectunified.craftdatabase.driver.sqlserver
