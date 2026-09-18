@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>craftdatabase-driver</artifactId>
+    <groupId>io.github.projectunified</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>craftdatabase-driver-sqlite</artifactId>
+  <name>CraftDatabase Driver Sqlite</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>io.github.projectunified</groupId>
+      <artifactId>craftdatabase-common</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.xerial</groupId>
+      <artifactId>sqlite-jdbc</artifactId>
+      <version>3.53.1.0</version>
+    </dependency>
+  </dependencies>
+
+</project>
